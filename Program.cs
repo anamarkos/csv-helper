@@ -9,7 +9,7 @@ namespace CsvHelper
     {
         static void Main(string[] args)
         {
-        
+            CsvHelper.FindLongestCsvColumnData("C:/temp/blah.csv");
         }
     }
 }

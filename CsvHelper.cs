@@ -51,7 +51,7 @@ namespace CsvHelper
                 Console.WriteLine("Column {0} : {1}", i, dictIndexLenght[i]);
             }
 
-            Console.WriteLine($"MaxValue: {maxValue}, MaxRow:{maxRow}, MaxColumnName:{columnHeaders[maxColumn]}");
+            Console.WriteLine($"MaxValue: {maxValue}, MaxValueCount: {maxValue.Count()}, MaxRow:{maxRow}, MaxColumnName:{columnHeaders[maxColumn]}");
         }
     }
 }
